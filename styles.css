@@ -1,26 +1,32 @@
-header{
-    border:8px solid rgb(85, 201, 255);
-    font-weight: 500;
+header {
+    border: 9px solid rgb(102, 186, 255);
+    font-weight: 600;
     padding: 20px;
     margin: 15px;
     font-size: 50px;
     text-align: center;
 }
-body{
+
+body {
     background-color: rgba(240, 248, 255, 0.767);
     font-family: 'Segoe UI', sans-serif;
 }
-img{
+
+img {
     margin-left: 35%;
     display: block;
 }
-h2, h3{
+
+h2,
+h3 {
     font-size: 25px;
     font-family: 'Segoe UI', sans-serif;
     font-style: normal;
     text-align: center;
 
 }
-p{
+
+p {
     font-family: 'Segoe UI', sans-serif;
+    padding: 10px;
 }
