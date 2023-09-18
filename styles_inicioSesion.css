@@ -1,0 +1,63 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3f51b5; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #673ab7; /* Color de texto violeta */
+}
+
+/* Estilo para el contenedor principal */
+div {
+    background-color: #fff; /* Color de fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px; /* Ancho máximo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+/* Estilo para las etiquetas de los campos de entrada */
+label {
+    display: block; /* Mostrar etiquetas en una línea nueva */
+    margin-top: 10px;
+    color: #3f51b5; /* Color de texto azul */
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de ingresar */
+input[type="submit"] {
+    background-color: #673ab7; /* Color de fondo violeta */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Estilo para el botón de ingresar al pasar el mouse sobre él */
+input[type="submit"]:hover {
+    background-color: #3f51b5; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para la imagen con ancho y alto específicos */
+img {
+    width: 200px; /* Ancho de la imagen */
+    height: 150px; /* Alto de la imagen */
+}
+
