@@ -11,4 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Los datos ingresados son incorrectos. Por favor, intentelo de nuevo.";
     }
 }
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 ?>
